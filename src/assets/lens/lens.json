@@ -1,0 +1,32 @@
+[
+    {
+        "value": "16",
+        "name": "Canon EF 16-35/2.8L II USM",
+        "category": "Canon"
+    },
+    {
+        "value": "17",
+        "name": "Canon EF 17-35mm F/2.8 L USM",
+        "category": "Canon"
+    },
+    {
+        "value": "8",
+        "name": "Canon EF 8-15mm f/4L Fisheye USM",
+        "category": "Canon"
+    },
+    {
+        "value": "24",
+        "name": "Canon EF 24-70mm f/2.8L II USM",
+        "category": "Canon"
+    },
+    {
+        "value": "24",
+        "name": "Canon EF 24-105mm f/4L IS USM",
+        "category": "Canon"
+    },
+    {
+        "value": "35",
+        "name": "Canon EF 35mm f/1.4L II USM",
+        "category": "Canon"
+    }
+]

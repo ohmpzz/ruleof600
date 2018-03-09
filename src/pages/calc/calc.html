@@ -1,0 +1,35 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>StarX</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <form [formGroup]="calcForm" novalidate>
+            <ion-item>
+              <ion-label floating>Lens mm.</ion-label>
+              <ion-input type="text" formControlName="lens"></ion-input>
+            </ion-item>
+          </form>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="calcForm.get('lens').value">
+      <ion-col>
+        <ion-list>
+          <h4>Crop Camera</h4>
+          <p>{{calcForm.get('lens')?.value | cropCamera}}</p>
+        </ion-list>
+        <ion-list>
+          <h4>Full Frame Camera</h4>
+          <p>{{calcForm.get('lens')?.value | fullframeCamera}}</p>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
